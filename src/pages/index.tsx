@@ -1,12 +1,15 @@
 import React from 'react'
 
 import type { NextPage } from 'next'
+import { Button } from '@material-ui/core'
 
 const Home: NextPage = () => {
   return (
     <div>
       Clone youtube com Next.js + Material UI
-      <div>teste</div>
+      <Button variant="contained" color="secondary">
+        Hello World!
+      </Button>
     </div>
   )
 }
